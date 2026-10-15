@@ -1,0 +1,50 @@
+# ===== 操作系统 =====
+Thumbs.db
+.DS_Store
+desktop.ini
+~$*
+
+# ===== 开发工具 / 安装包（不入库，走网盘） =====
+*.exe
+*.msi
+*.pack
+*.dll
+*.bpl
+*.rar
+
+# ===== Keil 编译产物（51 / STM32） =====
+Objects/
+Listings/
+*.o
+*.d
+*.axf
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
+*.lnp
+*.htm
+*.crf
+*.dep
+*.iex
+*.build_log.htm
+*.bak
+*.uvgui.*
+*.uvopt
+JLinkLog.txt
+*.Administrator
+
+# ===== Visual Studio（C 语言） =====
+.vs/
+Debug/
+Release/
+x64/
+*.user
+*.suo
+*.VC.opendb
+*.VC.db
+
+# ===== 其他临时文件 =====
+*.tmp
+*.log
