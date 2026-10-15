@@ -13,12 +13,14 @@
 stm32/
 ├── README.md
 ├── courseware/   # 17 章 PPT 讲义
+├── labs/         # 任务起始框架（Material.V2.0 空工程，16 个实验）
 ├── assignments/  # 大作业要求
-├── examples/     # 核心板测试例程
 ├── hardware/     # 原理图、BOM、Gerber、数据手册
 ├── reference/    # 参考手册、权威指南
 └── tools/        # 开发工具说明与下载
 ```
+
+> 测试板子的核心板测试例程在 `solutions` 分支的 `stm32/` 下。
 
 ## 实验概览（共 16 个）
 

@@ -4,8 +4,9 @@
 
 ## 学员要完成
 
-- 完成每章后面的编程任务（共 14 个实验，见 `assignments/chapter-tasks.md`）。
-- 先独立完成，再对照 `solutions` 分支的参考答案。
+- 完成每章后面的编程任务（共 14 个实验，任务清单见 `assignments/chapter-tasks.md`）。
+- 每章的起始框架在 `labs/`（空工程，打开后自己写代码）。
+- 先独立完成，再对照 `solutions` 分支的参考答案（Product）。
 
 ## 目录结构
 
@@ -13,12 +14,14 @@
 c-language/
 ├── README.md
 ├── courseware/     # 推荐书籍
+├── labs/           # 任务起始框架（空工程，14 个实验）
 └── assignments/    # 章节任务清单
 ```
 
 ## 开发环境
 
-- Visual Studio（例程为 `.sln` / `.vcxproj` 工程），或讲师指定的其他环境。
+- Visual Studio（工程为 `.sln` / `.vcxproj`）
+- 打开各实验 `Project/` 下的 `.sln` 即可开始写代码。
 - 源码为 `.c` / `.h`，提交时无需包含 `Debug`、`Release` 等编译产物。
 
 ## 任务清单
