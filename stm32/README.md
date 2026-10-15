@@ -2,26 +2,6 @@
 
 初阶第四站。基于 STM32F103RCT6 核心板，学习 GPIO、串口、定时器、中断、PWM、ADC/DAC、Flash、看门狗等外设，完成大作业并做 PPT 汇报。
 
-## 学员要完成
-
-- 完成每章后面的任务（对应 16 个实验）。
-- 完成大作业 + PPT 汇报。
-
-## 目录结构
-
-```text
-stm32/
-├── README.md
-├── courseware/   # 17 章 PPT 讲义
-├── labs/         # 任务起始框架（Material.V2.0 空工程，16 个实验）
-├── assignments/  # 大作业要求
-├── hardware/     # 原理图、BOM、Gerber、数据手册
-├── reference/    # 参考手册、权威指南
-└── tools/        # 开发工具说明与下载
-```
-
-> 测试板子的核心板测试例程在 `solutions` 分支的 `stm32/` 下。
-
 ## 实验概览（共 16 个）
 
 | # | 实验 | # | 实验 |
@@ -35,7 +15,21 @@ stm32/
 | 07 | SysTick | 15 | DAC |
 | 08 | RCC | 16 | ADC |
 
+## 目录结构
+
+```text
+stm32/
+├── courseware/   # 17 章 PPT 讲义
+├── labs/         # 实验任务框架（空工程，16 个）
+├── assignments/  # 大作业要求
+├── hardware/     # 原理图、BOM、数据手册
+├── reference/    # 参考手册、权威指南
+└── tools/        # 开发工具下载与说明
+```
+
 ## 开发环境
 
 - Keil MDK + STM32F1 标准外设库，见 `tools/README.md`。
 - 下载调试：ST-LINK 或串口 ISP。
+
+> 核心板测试例程与参考答案在仓库 `solutions` 分支。
