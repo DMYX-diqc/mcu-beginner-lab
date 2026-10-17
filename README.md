@@ -19,6 +19,7 @@
 ├── mcu-51/           # 51 单片机入门
 ├── circuit-design/   # 电路设计与制作
 ├── stm32/            # STM32
+├── senior-works/     # 老学员作品（可跑通代码）
 └── docs/             # 公共资料
 ```
 
