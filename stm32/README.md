@@ -32,4 +32,4 @@ stm32/
 - Keil MDK + STM32F1 标准外设库，见 `tools/README.md`。
 - 下载调试：ST-LINK 或串口 ISP。
 
-> 核心板测试例程见 `core-board-test/`，参考答案见 `product/` 目录。
+> 核心板测试例程见 `core-board-test/`，书上例题见 `product/` 目录。
