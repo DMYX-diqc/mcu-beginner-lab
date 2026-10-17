@@ -25,7 +25,9 @@
 ```text
 mcu-51/
 ├── courseware/     # 12 章 PPT 讲义
-├── assignments/    # 大作业要求
+├── labs/           # 实验空工程模板（10 个）
+├── product/        # 参考答案（10 个例程完整代码）
+├── assignments/    # 任务清单、大作业要求
 └── tools/          # 开发工具下载与说明
 ```
 
@@ -33,4 +35,4 @@ mcu-51/
 
 - Keil C51 编译器 + STC 烧录软件，见 `tools/README.md`。
 
-> 测试板子的基础例程与参考答案见 `labs/` 目录。
+> 实验空模板见 `labs/` 目录，参考答案见 `product/` 目录。
