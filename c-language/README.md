@@ -30,4 +30,4 @@ c-language/
 
 - Visual Studio（打开各实验 `Project/` 下的 `.sln`）。
 
-> 参考答案在仓库 `solutions` 分支，建议先独立完成再对照。
+> 参考答案在本仓库 `product/` 目录，建议先独立完成再对照。

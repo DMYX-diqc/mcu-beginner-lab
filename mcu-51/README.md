@@ -33,4 +33,4 @@ mcu-51/
 
 - Keil C51 编译器 + STC 烧录软件，见 `tools/README.md`。
 
-> 测试板子的基础例程与参考答案在仓库 `solutions` 分支。
+> 测试板子的基础例程与参考答案见 `labs/` 目录。
